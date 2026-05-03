@@ -3,7 +3,7 @@
 A simple `.bat` script that silences `.wav` files using FFmpeg.
 
 ## What it does
-This script processes `.wav` audio files and outputs a silent version so that you dont have to use audio editing software.
+This script overrides `.wav` audio files and makes them silent so that you dont have to use audio editing software.
 
 ## Requirements
 
@@ -23,3 +23,5 @@ If you're not sure how to do that, look up a quick tutorial on installing FFmpeg
 2. Run the `.bat` file
 3. The processed files will be generated in the same directory (or as defined in the script)
 
+##Note:
+this overrides the .wav file to be silent. so if you want to keep the original version make sure to make a copy that is NOT in the same folder as this .bat script
